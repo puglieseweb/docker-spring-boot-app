@@ -36,7 +36,17 @@ Thumbs.db
 
 .project
 .classpath
-.idea
 *.iml
 atlassian-ide-plugin.xml
-target
+.idea
+/.idea/gradle.xml
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/jarRepositories.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/.name
+/.idea/workspace.xml
+
+
+build
+.gradle

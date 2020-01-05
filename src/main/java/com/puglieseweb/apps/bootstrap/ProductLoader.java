@@ -1,7 +1,7 @@
-package guru.springframework.bootstrap;
+package com.puglieseweb.apps.bootstrap;
 
-import guru.springframework.domain.Product;
-import guru.springframework.repositories.ProductRepository;
+import com.puglieseweb.apps.domain.Product;
+import com.puglieseweb.apps.repositories.ProductRepository;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

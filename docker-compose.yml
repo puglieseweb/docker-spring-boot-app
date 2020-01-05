@@ -1,0 +1,9 @@
+---
+version: '3'
+services:
+   spring-web-app:
+      image: publieseweb/base-java:1.0.0
+      hostname: java-app
+      container_name: java-app
+      ports:
+         - '8080:8080' 

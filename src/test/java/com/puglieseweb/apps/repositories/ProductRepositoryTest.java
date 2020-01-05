@@ -1,7 +1,7 @@
-package guru.springframework.repositories;
+package com.puglieseweb.apps.repositories;
 
-import guru.springframework.configuration.RepositoryConfiguration;
-import guru.springframework.domain.Product;
+import com.puglieseweb.apps.configuration.RepositoryConfiguration;
+import com.puglieseweb.apps.domain.Product;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

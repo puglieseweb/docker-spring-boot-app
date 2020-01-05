@@ -1,6 +1,6 @@
-package guru.springframework.repositories;
+package com.puglieseweb.apps.repositories;
 
-import guru.springframework.domain.Product;
+import com.puglieseweb.apps.domain.Product;
 import org.springframework.data.repository.CrudRepository;
 
 public interface ProductRepository extends CrudRepository<Product, Integer>{
