@@ -7,3 +7,11 @@ services:
       container_name: java-app
       ports:
          - '8080:8080' 
+    links:
+      - fluentd
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: sample-spring-boot-application
+
